@@ -881,6 +881,37 @@ span {
   }
 }
 
+@media (max-width: 480px) {
+  .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .inner p {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    margin-top: 14px;
+  }
+  .inner img {
+    margin-bottom: 8px;
+    width: 25px;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .inner .dateoft {
+    padding-right: 3%;
+    padding-left: 1%;
+  }
+  .inner .entryfee {
+    padding-right: 18%;
+    padding-left: 8%;
+  }
+}
+
 .joinrule {
   margin-left: 10vw;
   margin-right: 10vw;
